@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.error{
+    margin: 10px;
+    font-size: 20px;
+    margin-left:-100px;
+
+}
+.search input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: -50px;
+}
+
+.search button img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.cloud img {
+    width: 150px;
+}
+
+.cityName {
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+
+}
+
+.humidity img {
+    width: 60px;
+}
+
+.humid {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.wind img {
+    width: 60px;
+}
+
+.windSpeed {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.error{
+    display: none;
+}
+.weather{
+    display: none;
+}
+.condition{
+    font-size: 17px;
+    font-weight: bold;
+}
